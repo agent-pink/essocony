@@ -1,4 +1,4 @@
-{ "title": "But Car", "author": "George Rogers", "slug": "but-car", "posted": "2016-01-10T10:56:00-0600" }
+{ "title": "But Car", "author": "George Rogers", "slug": "but-car", "date": "2016-01-10T10:56:00-0600" }
 
 <table>
 	<tr class="city">
