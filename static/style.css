@@ -38,8 +38,7 @@ a {
 table {
 	width: 100%;
 	text-align: right;
-	margin-top: 1cm;
-	margin-bottom: 1cm;
+	margin: 1cm;
 }
 
 th, td {
