@@ -39,6 +39,6 @@ table {
 	border: 1px solid white;
 }
 
-table table {
-	width: 10cm;
+table {
+	width: 100%;
 }
