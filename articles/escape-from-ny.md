@@ -54,11 +54,11 @@
 				</tr>
 				<tr>
 					<th>Transportation</th>
-					<th>976.25</th>
+					<th>$976.25</th>
 				</tr>
 				<tr>
 					<th>Total</th>
-					<th>1825.25</th>
+					<th>$1825.25</th>
 				</tr>
 			</table>
 		</td>
