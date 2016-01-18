@@ -41,3 +41,7 @@ table {
 	margin: auto;
 	text-align: right;
 }
+
+th, td {
+	width: 3cm;
+}
