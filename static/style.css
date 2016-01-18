@@ -36,7 +36,8 @@ a {
 }
 
 table {
-	width: 100%;
-	margin: 1cm;
+	width: 90%;
+	height: 90%;
+	margin: auto;
 	text-align: right;
 }
