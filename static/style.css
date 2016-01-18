@@ -42,7 +42,8 @@ table {
 }
 
 th, td {
-	padding: 5mm;
+	margin-left: 5mm;
+	margin-right: 5mm;
 	width: 5cm;
 }
 
