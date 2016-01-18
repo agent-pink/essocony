@@ -1,8 +1,5 @@
 {% extends "base.tpl" %}
 {% autoescape None %}
-{% block title %}
-<title>Agent Pink /</title>
-{% end %}
 {% block body %}
 {% for article in articles %}
 <div class="article">

@@ -1,7 +1,7 @@
 {% extends "base.tpl" %}
 {% autoescape None %}
 {% block title %}
-<title>Agent Pink&mdash;{{ article.meta["title"] }}</title>
+<title>Essocony&mdash;{{ article.meta["title"] }}</title>
 {% end %}
 {% block body %}
 <div class="article">
