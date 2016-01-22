@@ -6,9 +6,11 @@ There are many requirements of a people to properly manage diversity.
 They are
 
 1. A open meritocratic societal structure causing
+
   * Property Rights
   * Rule Of Law
   * Hospitable People
+
 2. A strong base culture that fuels assimilation
 3. Strong border management in host country so that the culture does not get overrun.
 
