@@ -1,3 +1,0 @@
-{"title": "Welcome to Essocony a defence of Big Oil", "slug": "welcome", "author": "George Rogers", "date": "2015-12-27T12:29:48-06:00"}
-
-Welcome to Essocony a defence of Big Oil.

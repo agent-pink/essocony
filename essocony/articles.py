@@ -10,7 +10,7 @@ class Article(object):
                 break
             lines.append(line)
         self.meta = json.loads("".join(lines))
-        self.contents = markdown("".join(f.readlines()))
+        self.contents = "".join(f.readlines())
 
 def load(pat):
     articles = []
