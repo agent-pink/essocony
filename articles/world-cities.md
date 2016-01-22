@@ -5,14 +5,18 @@ In all other places diversity is a net loss.
 There are many requirements of a people to properly manage diversity.
 They are
 
-1. A open meritocratic societal structure causing
-
-  * Property Rights
-  * Rule Of Law
-  * Hospitable People
-
-2. A strong base culture that fuels assimilation
-3. Strong border management in host country so that the culture does not get overrun.
+<ol>
+<li>
+A open meritocratic societal structure causing
+<ul>
+<li>Property Rights</li>
+<li>Rule Of Law</li>
+<li>Hospitable People</li>
+</ul>
+</li>
+<li>A strong base culture that fuels assimilation</li>
+<li>Strong border management in host country so that the culture does not get overrun</li>
+</ol>
 
 # Houston's lack of zoning is a sign of its unique ability to be a *Global City*
 
