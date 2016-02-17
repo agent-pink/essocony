@@ -13,3 +13,11 @@ class Article(web.RequestHandler):
     def get(self, slug):
         env = {"article": article_map[slug]}
         self.render("article.tpl", **env)
+
+app = web.Application([
+    (r"/", Articles),
+    (r"/articles/", Articles),
+    (r"/article/(.+)", Article),
+    (r"/static/(.+)", web.StaticFileHandler, {"path": "static"}),
+    (r"/(favicon.ico)", web.StaticFileHandler, {"path": "static"}),
+])

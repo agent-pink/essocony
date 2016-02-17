@@ -1,55 +1,57 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,400,300,600italic,300italic,400italic);
-
 body {
-	background-color: black;
-	color: #f0f;
-	font-family: "Open Sans", sans-serif;
-	font-size: 4mm;
-	width: 20cm;
-	text-align: justify;
+	font-family: "Roboto", sans-serif;
+	font-size: 0.5cm; 
+	width: 75%;
 	margin: auto;
+	margin-bottom: 2cm;
+	text-align: justify;
 }
 
-.title {
+h1.masthead {
+	font-size: 3em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
 	text-align: center;
-	font-family: "Open Sans", sans-serif;
-	font-weight: 300;
 }
 
 h1.title {
 	font-size: 3em;
 }
 
-h2.meta {
-	font-size: 2em;
-}
-
 h1.masthead {
 	font-size: 4em;
 }
 
+h1 {
+	font-size: 2em;
+}
+
+h2.date {
+	font-weight: 1.25em;
+}
+
 a {
-	font-family: "Open Sans", sans-serif;
-	font-weight: 300;
-	font-style: italic;
-	color: #0ff;
+	color: black;
+}
+
+a:hover {
+	color: white;
+	background-color: black;
 }
 
 table {
-	width: 100%;
-	text-align: justify;
-	margin: 1cm;
+	border: 1px solid black;
 }
 
 th, td {
-	margin-left: 5mm;
-	margin-right: 5mm;
-	width: 5cm;
+	width: 12cm;
+	text-align: left;
 }
 
-div.contents h1 {
-	font-size: 1.5em;
-}
-div.contents h2 {
-	font-size: 1.25em;
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-indent: 1cm;
 }
