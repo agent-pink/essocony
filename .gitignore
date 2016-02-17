@@ -60,5 +60,6 @@ target/
 
 # Editor swap files
 *.swp
+*.swo
 *~
 *#*
