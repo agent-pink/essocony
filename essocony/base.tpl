@@ -2,6 +2,7 @@
 <!doctype html>
 <html>
 	<head>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic|Roboto+Mono' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="/static/style.css">
 		{% block title %}
 		<title>Essocony</title>
@@ -9,7 +10,6 @@
 	</head>
 	<body>
 		<h1 class="title masthead"><a href="/articles/">Essocony by George Rogers</a></h1>
-		<h2 class="title"><a href="/static/diversity.pdf">Book I'm working on about diversity and world cities.</a></h2>
 		{% block body %}
 		{% end %}
 	</body>
