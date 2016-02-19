@@ -1,5 +1,5 @@
 from __future__ import print_function
-from . import app
+from .handlers import app
 from os  import environ
 from tornado.httpserver import HTTPServer
 from tornado.ioloop import IOLoop
