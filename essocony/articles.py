@@ -15,7 +15,7 @@ class Article(object):
                 break
             lines.append(line)
         self.meta = json.loads("".join(lines))
-        self.meta["date"] = datetime.strptime(self.meta["date"], "%Y-%m-%d %H:%M:%S")
+        self.posted = datetime.strptime(self.meta["date"], "%Y-%m-%d %H:%M:%S")
         self.contents = "".join(f.readlines())
 
 def load(pat):
@@ -23,7 +23,7 @@ def load(pat):
     for name in glob(pat):
         with open(name, "r") as f:
             articles.append(Article(f))
-    articles.sort(key=lambda x: x.meta["date"], reverse=True)
+    articles.sort(key=lambda x: x.posted, reverse=True)
     return articles
 def article_map(articles):
     amap = {}
