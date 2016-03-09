@@ -16,7 +16,6 @@ class Article(object):
             lines.append(line)
         self.meta = json.loads("".join(lines))
         self.meta["date"] = datetime.strptime(self.meta["date"], "%Y-%m-%d %H:%M:%S")
-        self.meta["date"].astimezone(tzinfo.tzname
         self.contents = "".join(f.readlines())
 
 def load(pat):
