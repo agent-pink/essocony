@@ -11,7 +11,7 @@ class Article(object):
                 break
             lines.append(line)
         self.meta = json.loads("".join(lines))
-        self.meta["date"] = datetime.strptime(self.meta["date"], "%Y-%m-%d %H:%M:%S %Z")
+        self.meta["date"] = datetime.strptime(self.meta["date"], u"%Y-%m-%d %H:%M:%S %Z")
         self.contents = "".join(f.readlines())
 
 def load(pat):
